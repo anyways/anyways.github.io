@@ -6,23 +6,34 @@
     <title>Anyways</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css">
   </head>
   <body>
 
     <!--Navbar-->
     <anyways-navbar></anyways-navbar>
 
-    <!--Content-->
-    <div ui-view></div>
+    <!--Carousel-->
+    <div ui-view>
+      <div class="col-md-12">
+        <carousel>
+          <slide>
+            <img src="http://developers.baidu.com/file/get/703" style="width: 100%; height: 500px;">
+          </slide>
+          <slide>
+            <img src="http://developers.baidu.com/file/get/685" style="width: 100%; height: 500px;">
+          </slide>
+        </carousel>
+      </div>
+    </div>
 
     <!--Public Javascript Library-->
-    <script type="text/javascript" src="./js/jquery.min.js"></script>
-    <script type="text/javascript" src="./js/angular.min.js"></script>
-    <script type="text/javascript" src="./js/angular-route.min.js"></script>
-    <script type="text/javascript" src="./js/angular-animate.min.js"></script>
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./js/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://libs.useso.com/js/jquery/1.11.1-rc2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://libs.useso.com/js/angular.js/1.3.0-beta.9/angular.min.js"></script>
+    <script type="text/javascript" src="http://libs.useso.com/js/angular.js/1.3.0-beta.9/angular-route.min.js"></script>
+    <script type="text/javascript" src="http://libs.useso.com/js/angular.js/1.3.0-beta.9/angular-animate.min.js"></script>
+    <script type="text/javascript" src="http://libs.useso.com/js/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://libs.useso.com/js/angular-ui-bootstrap/0.11.0/ui-bootstrap-tpls.min.js"></script>
 
     <!--Website Javascript Library-->
     <script type="text/javascript" src="./js/anyways.js"></script>
