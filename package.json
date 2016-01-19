@@ -1,0 +1,15 @@
+{
+  "name": "anyways-github-io",
+  "version": "1.0.0",
+  "homepage": "http://anyways.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anyways/anyways.github.io.git"
+  },
+  "scripts": {
+    "start": "http-server -a 0.0.0.0 -p 8080"
+  },
+  "dependencies": {
+    "http-server": "^0"
+  }
+}
