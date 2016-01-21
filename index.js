@@ -3,7 +3,7 @@ var Anyways = angular.module("Anyways", [ "ui.bootstrap" ]);
 Anyways.directive("anywaysNavbar", [ function() {
   return new Object({
     restrict: "E",
-    templateUrl : "tpl/navbar.tpl",
+    templateUrl : "tpls/navbar.tpl",
     replace: true
   });
 } ]);
@@ -11,7 +11,7 @@ Anyways.directive("anywaysNavbar", [ function() {
 Anyways.directive("anywaysCarousel", [ function() {
   return new Object({
     restrict: "E",
-    templateUrl : "tpl/carousel.tpl",
+    templateUrl : "tpls/carousel.tpl",
     replace: true
   });
 } ]);
