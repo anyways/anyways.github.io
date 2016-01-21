@@ -1,22 +1,49 @@
-var Anyways = angular.module("Anyways", [ "ui.bootstrap" ]);
+var Anyways = angular.module("Anyways", []);
 
-Anyways.directive("anywaysNavbar", [ function() {
+Anyways.directive("anywaysHeader", [ function() {
   return new Object({
     restrict: "E",
-    templateUrl : "tpls/navbar.tpl",
+    templateUrl : "tpls/anyways-header.tpl",
     replace: true
   });
 } ]);
 
-Anyways.directive("anywaysCarousel", [ function() {
+Anyways.directive("anywaysFooter", [ function() {
   return new Object({
     restrict: "E",
-    templateUrl : "tpls/carousel.tpl",
+    templateUrl : "tpls/anyways-footer.tpl",
     replace: true
   });
 } ]);
 
-Anyways.controller("Nav", [ "$scope", function($scope) {
+Anyways.directive("anywaysLeftAside", [ function() {
+  return new Object({
+    restrict: "E",
+    templateUrl : "tpls/anyways-left-aside.tpl",
+    replace: true
+  });
+} ]);
+
+Anyways.directive("anywaysRightAside", [ function() {
+  return new Object({
+    restrict: "E",
+    templateUrl : "tpls/anyways-right-aside.tpl",
+    replace: true
+  });
+} ]);
+
+Anyways.directive("anywaysContent", [ function() {
+  return new Object({
+    restrict: "E",
+    templateUrl : "tpls/anyways-content.tpl",
+    replace: true,
+    link: function() {
+      $.AdminLTE.layout.fix();
+    }
+  });
+} ]);
+
+Anyways.controller("Anywaysaa", [ "$scope", function($scope) {
   
 } ]);
 
