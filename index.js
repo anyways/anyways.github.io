@@ -42,8 +42,3 @@ Anyways.directive("anywaysContent", [ function() {
     }
   });
 } ]);
-
-Anyways.controller("Anywaysaa", [ "$scope", function($scope) {
-  
-} ]);
-
