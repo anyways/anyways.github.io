@@ -7,7 +7,7 @@
     "url": "https://github.com/anyways/anyways.github.io.git"
   },
   "scripts": {
-    "start": "http-server -a 0.0.0.0 -p 8080"
+    "start": "http-server -a 0.0.0.0 -p 8000"
   },
   "dependencies": {
     "http-server": "^0"
